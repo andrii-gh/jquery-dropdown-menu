@@ -1,0 +1,61 @@
+.jdm-nav {
+    background-color: white;
+    width: 100%;
+    padding: 0;
+}
+
+.jdm-nav  ul {
+    padding: 0;
+}
+
+.jdm-nav {
+    list-style: none;
+}
+
+.jdm-nav li {
+    list-style: none;
+}
+
+.jdm-nav ul {
+    margin: 0;
+}
+
+.jdm-nav a {
+    text-align: left;
+    display: flex;
+    color: rgb(76, 92, 104);
+    font-weight: 500;
+    padding: .5em 0;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(76, 92, 104, 0.1);
+}
+
+.jdm-nav li {
+    font-size: 16px;
+}
+
+.jdm-nav li a {
+    padding-left: 15px;
+}
+
+.jdm-nav li li a {
+    padding-left: 30px;
+}
+
+.jdm-nav li li li a {
+    padding-left: 45px;
+}
+
+.jdm-nav li {
+    position: relative;
+}
+
+.jdm-nav li::before {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    font-size: 25px;
+    background-color: red;
+    content: '';
+    clip-path: url(#ybk-mobile-dropdown-clip-mask);
+}
